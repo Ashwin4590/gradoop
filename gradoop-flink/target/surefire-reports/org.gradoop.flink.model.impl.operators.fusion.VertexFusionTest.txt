@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.model.impl.operators.fusion.VertexFusionTest
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.824 sec - in org.gradoop.flink.model.impl.operators.fusion.VertexFusionTest

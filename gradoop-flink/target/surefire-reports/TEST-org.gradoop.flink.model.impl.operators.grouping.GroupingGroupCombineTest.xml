@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="17.967" tests="49" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ashwinramesh/Documents/gradoop"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ashwinramesh/Documents/gradoop"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/bm/z2665z7d59z12qw65prjrpfc0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ashwinramesh/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.5.0/libexec/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.12.5"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.5.0/libexec/lib/jansi-native/osx64"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ashwinramesh"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ashwinramesh"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.5.0/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="/Users/ashwinramesh/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.5.0/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="testVertexLabelSpecificAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.475"/>
+  <testcase name="testVertexLabelAndSingleVertexAndSingleEdgeProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.292"/>
+  <testcase name="testSingleVertexAndSingleEdgeProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.335"/>
+  <testcase name="testVertexAndEdgeLabelAndSingleVertexPropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.373"/>
+  <testcase name="testVertexLabelSpecific" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.273"/>
+  <testcase name="testSingleVertexPropertyAndMultipleEdgeProperties" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.34"/>
+  <testcase name="testMaxWithMissingValues" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.358"/>
+  <testcase name="testVertexLabel" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.261"/>
+  <testcase name="testSumWithMissingValues" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.262"/>
+  <testcase name="testMax" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.262"/>
+  <testcase name="testMin" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.367"/>
+  <testcase name="testSum" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.306"/>
+  <testcase name="testSumWithMissingValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.33"/>
+  <testcase name="testCount" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.523"/>
+  <testcase name="testVertexLabelSpecificNewLabel" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.332"/>
+  <testcase name="testVertexAndEdgeLabelAndSingleEdgeProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.323"/>
+  <testcase name="testCrossVertexLabelSpecificAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.313"/>
+  <testcase name="testCrossVertexLabelSpecific" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.386"/>
+  <testcase name="testVertexAndEdgeLabelAndVertexAndSingleEdgeProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.337"/>
+  <testcase name="testEdgeLabelSpecificUnlabeledGrouping" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.268"/>
+  <testcase name="testVertexAndEdgePropertyWithAbsentValues" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.299"/>
+  <testcase name="testVertexAndEdgeLabelAndSingleEdgePropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.372"/>
+  <testcase name="testMultipleVertexPropertiesWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.302"/>
+  <testcase name="testEdgeLabelSpecific" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.288"/>
+  <testcase name="testVertexLabelAndSingleEdgeProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.364"/>
+  <testcase name="testVertexLabelSpecificGlobalAggregator" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.445"/>
+  <testcase name="testMinWithMissingValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.313"/>
+  <testcase name="testVertexAndEdgeLabel" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.36"/>
+  <testcase name="testMaxWithMissingValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.32"/>
+  <testcase name="testMultipleVertexAndMultipleEdgeProperties" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.298"/>
+  <testcase name="testCrossEdgeLabelSpecific" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.282"/>
+  <testcase name="testVertexLabelAndSingleVertexProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.344"/>
+  <testcase name="testSingleVertexProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.341"/>
+  <testcase name="testMultipleAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.323"/>
+  <testcase name="testVertexLabelAndSingleVertexPropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.299"/>
+  <testcase name="testEdgeLabelSpecificGlobalAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.472"/>
+  <testcase name="testAPIFunction" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.387"/>
+  <testcase name="testVertexAndEdgeLabelAndSingleVertexProperty" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.383"/>
+  <testcase name="testVertexAndEdgeLabelAndSingleVertexAndSingleEdgePropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.337"/>
+  <testcase name="testNoAggregate" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.464"/>
+  <testcase name="testVertexLabelSpecificUnlabeledGrouping" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.401"/>
+  <testcase name="testEdgeLabelSpecificAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.46"/>
+  <testcase name="testEdgeLabelSpecificNewLabel" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.575"/>
+  <testcase name="testVertexLabelAndSingleEdgePropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.418"/>
+  <testcase name="testMultipleVertexProperties" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.552"/>
+  <testcase name="testMinWithMissingValues" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.479"/>
+  <testcase name="testSingleVertexPropertyWithAbsentValue" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.33"/>
+  <testcase name="testCrossEdgeLabelSpecificAggregators" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.347"/>
+  <testcase name="testVertexPropertySymmetricGraph" classname="org.gradoop.flink.model.impl.operators.grouping.GroupingGroupCombineTest" time="0.471"/>
+</testsuite>

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.model.impl.operators.matching.single.cypher.CypherPatternMatchingIsomorphismTest
+-------------------------------------------------------------------------------
+Tests run: 60, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 17.462 sec - in org.gradoop.flink.model.impl.operators.matching.single.cypher.CypherPatternMatchingIsomorphismTest

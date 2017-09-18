@@ -1,0 +1,12 @@
+org/gradoop/common/util/AsciiGraphLoaderTest.class
+org/gradoop/common/model/impl/properties/PropertyValueTest.class
+org/gradoop/common/util/NetworkHelperTest.class
+org/gradoop/common/model/impl/id/GradoopIdTest.class
+org/gradoop/common/GradoopTestUtils.class
+org/gradoop/common/model/impl/properties/PropertiesTest.class
+org/gradoop/common/model/impl/properties/PropertyValueListTest.class
+org/gradoop/common/model/impl/pojo/VertexTest.class
+org/gradoop/common/model/impl/properties/PropertyTest.class
+org/gradoop/common/model/impl/pojo/EdgeTest.class
+org/gradoop/common/model/impl/id/GradoopIdListTest.class
+org/gradoop/common/model/impl/pojo/GraphHeadTest.class

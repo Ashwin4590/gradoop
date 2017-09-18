@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.s1ck:gdl:0.3.0-SNAPSHOT">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/s1ck/gdl/0.3.0-SNAPSHOT/gdl-0.3.0-20170808.160534-15.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/s1ck/gdl/0.3.0-SNAPSHOT/gdl-0.3.0-20170808.160534-15-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/s1ck/gdl/0.3.0-SNAPSHOT/gdl-0.3.0-20170808.160534-15-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

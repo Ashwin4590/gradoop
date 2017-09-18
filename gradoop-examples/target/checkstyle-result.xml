@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.2">
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/grouping/GroupingBenchmark.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/grouping/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/Queries.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/SetPairTraverserBenchmark.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/TransactionalBenchmark.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/TraverserBenchmark.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/benchmark/patternmatching/TripleTraverserBenchmark.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/AbstractRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/biiig/CategoryCharacteristicPatterns.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/biiig/FrequentLossPatterns.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/biiig/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/data_source/DIMSpanGraphFromText.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/data_source/DIMSpanTLFSource.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/data_source/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/DIMSpanRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/SyntheticDataGenerator.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/dimspan/TLFDataCopier.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/grouping/Communities.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/grouping/Composition.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/grouping/GroupingRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/grouping/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/grouping/Schema.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/io/DOTExample.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/io/EdgeListExample.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/io/JSONExample.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/io/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/io/PokecExample.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/patternmatching/CypherExample.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/patternmatching/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/patternmatching/PatternMatchingRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/sna/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/sna/SNABenchmark1.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/sna/SNABenchmark2.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/utils/ExampleOutput.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/examples/utils/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/sampling/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/sampling/RandomNodeSamplingRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctEdgePropertiesByLabelRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctEdgePropertiesRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctSourceVertexCountByEdgeLabelRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctSourceVertexCountRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctTargetVertexCountByEdgeLabelRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctTargetVertexCountRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctVertexPropertiesByLabelRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/DistinctVertexPropertiesRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/EdgeCountRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/EdgeLabelDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/package-info.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/SourceAndEdgeLabelDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/StatisticsRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/TargetAndEdgeLabelDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/VertexCountRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/VertexDegreeDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/VertexIncomingDegreeDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/VertexLabelDistributionRunner.java">
+</file>
+<file name="/Users/ashwinramesh/Documents/gradoop/gradoop-examples/src/main/java/org/gradoop/utils/statistics/VertexOutgoingDegreeDistributionRunner.java">
+</file>
+</checkstyle>

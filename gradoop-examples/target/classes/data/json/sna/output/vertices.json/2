@@ -1,0 +1,4 @@
+{"id":"000000000000000000000008","data":{"name":"Eve","gender":"f","city":"Dresden","age":35,"speaks":"English"},"meta":{"label":"Person","graphs":["000000000000000002000003","000000000000000002000004","59bf96d87472f806f32ac0dc","59bf96d87472f806f32ac0dd"]}}
+{"id":"000000000000000000000009","data":{"title":"Graph Processing"},"meta":{"label":"Forum","graphs":["000000000000000002000002","000000000000000002000004","59bf96d87472f806f32ac0dc","59bf96d87472f806f32ac0dd"]}}
+{"id":"00000000000000000000000a","data":{"name":"Graphs"},"meta":{"label":"Tag","graphs":["000000000000000002000004","59bf96d87472f806f32ac0dc","59bf96d87472f806f32ac0dd"]}}
+{"id":"000000000000000000000000","data":{},"meta":{"label":"Person","graphs":["59bf96d87472f806f32ac0dd"]}}

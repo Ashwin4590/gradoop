@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.algorithms.fsm.transactional.predgen.PredictableGeneratorDIMSpanTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.736 sec - in org.gradoop.flink.algorithms.fsm.transactional.predgen.PredictableGeneratorDIMSpanTest

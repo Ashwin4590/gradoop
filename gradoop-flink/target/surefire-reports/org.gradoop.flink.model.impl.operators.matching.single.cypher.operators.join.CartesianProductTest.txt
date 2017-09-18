@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.model.impl.operators.matching.single.cypher.operators.join.CartesianProductTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.499 sec - in org.gradoop.flink.model.impl.operators.matching.single.cypher.operators.join.CartesianProductTest

@@ -1,0 +1,5 @@
+org/gradoop/GradoopHBaseTestBase.class
+org/gradoop/common/storage/impl/hbase/GradoopHBaseTestUtils.class
+org/gradoop/flink/io/impl/hbase/HBaseDataSinkSourceTest.class
+org/gradoop/common/storage/impl/hbase/HBaseGraphStoreTest.class
+org/gradoop/HBaseTestSuite.class

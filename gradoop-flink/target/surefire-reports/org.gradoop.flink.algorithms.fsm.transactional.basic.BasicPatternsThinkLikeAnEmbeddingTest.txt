@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.algorithms.fsm.transactional.basic.BasicPatternsThinkLikeAnEmbeddingTest
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.216 sec - in org.gradoop.flink.algorithms.fsm.transactional.basic.BasicPatternsThinkLikeAnEmbeddingTest

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.datagen.transactions.foodbroker.FoodBrokerTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 22.858 sec - in org.gradoop.flink.datagen.transactions.foodbroker.FoodBrokerTest

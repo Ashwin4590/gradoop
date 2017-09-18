@@ -1,0 +1,5 @@
+/Users/ashwinramesh/Documents/gradoop/gradoop-hbase/src/test/java/org/gradoop/flink/io/impl/hbase/HBaseDataSinkSourceTest.java
+/Users/ashwinramesh/Documents/gradoop/gradoop-hbase/src/test/java/org/gradoop/GradoopHBaseTestBase.java
+/Users/ashwinramesh/Documents/gradoop/gradoop-hbase/src/test/java/org/gradoop/HBaseTestSuite.java
+/Users/ashwinramesh/Documents/gradoop/gradoop-hbase/src/test/java/org/gradoop/common/storage/impl/hbase/GradoopHBaseTestUtils.java
+/Users/ashwinramesh/Documents/gradoop/gradoop-hbase/src/test/java/org/gradoop/common/storage/impl/hbase/HBaseGraphStoreTest.java

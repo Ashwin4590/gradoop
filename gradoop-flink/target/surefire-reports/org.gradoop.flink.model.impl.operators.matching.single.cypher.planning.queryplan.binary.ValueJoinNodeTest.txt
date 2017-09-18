@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: org.gradoop.flink.model.impl.operators.matching.single.cypher.planning.queryplan.binary.ValueJoinNodeTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.772 sec - in org.gradoop.flink.model.impl.operators.matching.single.cypher.planning.queryplan.binary.ValueJoinNodeTest
