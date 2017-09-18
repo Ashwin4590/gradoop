@@ -83,85 +83,13 @@ public class CypherExample {
     // or use the result in subsequent analytical steps
     matches.getGraphHeads().print();
 
-    DataSet<String> vertexData = env.fromElements(
-            new String("id:000000000000000000000011,name:Ash,gender:m,label:Person")
-    );
-
-    DataSet<Vertex> importVertices = vertexData.map(new MapFunction<String, Vertex>() {
-
-      @SuppressWarnings("Duplicates")
-      @Override
-      public Vertex map(String value) throws Exception {
-        Vertex importVertex = new Vertex();
-        Properties properties = Properties.create();
-        Map<String, String> KeyValueStore = new HashMap<String, String>();
-        String[] keyValuePairs = value.split(",");
-        for(String pair : keyValuePairs)  {
-          String[] entry = pair.split(":");
-          KeyValueStore.put(entry[0].trim(), entry[1].trim());
-        }
-        for (String s : KeyValueStore.keySet()) {
-          switch(s) {
-            case "id": importVertex.setId(GradoopId.fromString(KeyValueStore.get(s)));
-              break;
-            case "label":
-              importVertex.setLabel(KeyValueStore.get(s));
-              break;
-            default:
-              properties.set(s, KeyValueStore.get(s));
-          }
-        }
-        importVertex.setProperties(properties);
-        return importVertex;
-      }
-    });
-
-    DataSet<String> edgeData = env.fromElements(
-            new String("id:000000000000000001000018,label:knowsWell, sourceId:000000000000000000000011, targetId:000000000000000000000000"));
-
-    DataSet<Edge> importEdges = edgeData.map(new MapFunction<String, Edge>() {
-
-      @SuppressWarnings("Duplicates")
-      @Override
-      public Edge map(String value) throws Exception {
-        Edge importEdge = new Edge();
-        Properties properties = Properties.create();
-        Map<String, String> KeyValueStore = new HashMap<String, String>();
-        String[] keyValuePairs = value.split(",");
-        for(String pair : keyValuePairs)  {
-          String[] entry = pair.split(":");
-          KeyValueStore.put(entry[0].trim(), entry[1].trim());
-        }
-        for (String s : KeyValueStore.keySet()) {
-          switch(s) {
-            case "id": importEdge.setId(GradoopId.fromString(KeyValueStore.get(s)));
-              break;
-            case "label": importEdge.setLabel(KeyValueStore.get(s));
-              break;
-            case "sourceId": importEdge.setSourceId(GradoopId.fromString(KeyValueStore.get(s)));
-              break;
-            case "targetId": importEdge.setTargetId(GradoopId.fromString(KeyValueStore.get(s)));
-              break;
-            default: properties.set(s, KeyValueStore.get(s));
-          }
-        }
-        importEdge.setProperties(properties);
-        return importEdge;
-      }
-    });
-
-    DataSet<Vertex> newVertexSet = (socialNetwork.getVertices())
-            .union(importVertices);
-
-    DataSet<Edge> newEdgeSet = (socialNetwork.getEdges())
-            .union(importEdges);
-
-    socialNetwork.getConfig().getLogicalGraphFactory().fromDataSets(newVertexSet, newEdgeSet)
+    socialNetwork.executeCypher("Need to write Query Parser")
             .writeTo(new JSONDataSink(
                     OUTPUT_PATH + "graphHeads.json",
                     OUTPUT_PATH + "vertices.json",
                     OUTPUT_PATH + "edges.json",
                     config));
+
     env.execute();
   }
 }
